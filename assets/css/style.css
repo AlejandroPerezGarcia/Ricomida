@@ -1,0 +1,116 @@
+:root{
+    --lobster30pt : 40px;
+    --lobster37pt : 50px;
+    --cabin16pt : 22px;
+    --cabin20pt : 26px;
+    --cabin23pt : 30px;
+    --cabin30pt : 40px;
+    --cabin40pt : 54px; 
+}
+
+/*body */
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* nav */
+#logo{
+    font-family: 'Lobster', cursive;
+    font-size: var(--lobster37pt);
+}
+
+nav div ul li a {
+    font-size: var(--cabin16pt);
+}
+
+
+/* principal*/
+h1{
+    font-size:var(--cabin40pt);
+    text-align: left;
+}
+
+head div h5 {
+    font-size: var(--cabin20pt);
+}
+
+header div span button{
+    font-size: var(--cabin16pt);
+}
+
+
+/* carrusel  */
+
+.carousel-indicators{
+    top: 200px;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+/* preparacio*/
+
+#ingrediente{
+    font-size: var(--cabin20pt);
+    text-decoration: underline;
+}
+
+#preparacion{
+    font-size: var(--cabin20pt);
+    text-decoration: underline;
+}
+
+.letra{
+    font-size: var(--cabin20pt);
+}
+
+/* Recetas relacionadas */
+
+#receta h3{
+    font-size: var(--cabin40pt);
+}
+
+#receta h5{
+    font-size: var(--cabin23pt);
+}
+
+#receta p {
+    font-size: var(--cabin16pt);
+}
+
+/* Suscribete*/
+
+#sub{
+    font-family: 'Lobster', cursive;
+    font-size: var(--lobster30pt);
+}
+#mensaje{    
+    font-size: var(--cabin30pt);
+}
+#subTex{
+    font-size: var(--cabin40pt);
+}
+
+#buttonsub{
+    font-size: var(--cabin16pt);
+}
+
+/* footer*/ 
+
+footer{
+    font-family: 'Lobster', cursive;
+    font-size: var(--lobster37pt);
+    margin: 0;
+}
+
+
+
+
